@@ -12,7 +12,5 @@ public class ChineseDynasties {
 
         System.out.println( " Показник атаки для династій Лi = " + li_attack  );
         System.out.println( " Показник атаки для династій Мiнь = " + mi_attack  );
-
-
     }
 }

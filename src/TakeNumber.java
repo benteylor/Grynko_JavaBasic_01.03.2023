@@ -6,7 +6,7 @@ public class TakeNumber {
         int computer = numbers[(int) (Math.random() * numbers.length)];
         int user;
         Scanner input = new Scanner(System.in);
-        System.out.print("Вам необходимо угадать число которое загадал компьютер от 1 до 10. ");
+        System.out.print("А сейчас поиграм в игру. Вам необходимо угадать число которое загадал компьютер от 1 до 10. ");
         do {
             System.out.print("Введите число: ");
             user = input.nextInt();

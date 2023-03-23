@@ -20,9 +20,9 @@ public class CounterStrike {
         double average2 = sumHeadShot2 / (double) h.length;
 
         if (average1 > average2) {
-            System.out.println("Победила команда: " +killers);
+            System.out.println("Победила команда:_" +killers+ "_набрала_"  +average1+  "_очков");
         } else if (average1 < average2) {
-            System.out.println("Победила команда: " +hunters);
+            System.out.println("Победила команда:_ " +hunters+ "_набрала_"  +average2+  "_очков");
         } else {
             System.out.println("Ничья");
         }
